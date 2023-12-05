@@ -9,8 +9,10 @@ import "./index.css"
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+    <Navbar/>
       <Routes>
         <Route path="/" element={<Navbar/>}/>
+        <Route path="/login" element={<LoginScreen/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
