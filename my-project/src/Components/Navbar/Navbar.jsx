@@ -6,7 +6,7 @@ import NavbarContext from "../NavbarContext/NavbarContext";
 
 function Navbar () {
     return(
-        <section className="shadow-md">
+        <section className="shadow-md fixed top-0 left-0 w-full">
                 <Line/>
                 <div className="p-4 flex justify-between items-center">
                     <LogoAll/>

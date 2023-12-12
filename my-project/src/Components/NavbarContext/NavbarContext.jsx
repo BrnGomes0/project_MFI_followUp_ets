@@ -5,7 +5,7 @@ function NavbarContext() {
      <div className='w-96'>
          <ul className='flex justify-between text-lg'>
         <li>
-          <a href='/'>Upload</a>
+          <a href='/upload'>Upload</a>
         </li>
         <li>
           <a href='/'>View</a>
