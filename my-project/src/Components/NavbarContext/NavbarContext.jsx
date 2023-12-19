@@ -8,10 +8,10 @@ function NavbarContext() {
           <a href='/upload'>Upload</a>
         </li>
         <li>
-          <a href='/'>View</a>
+          <a href='/view'>View</a>
         </li>
         <li>
-          <a href='/'>E-mail</a>
+          <a href='/e-mail'>E-mail</a>
         </li>
         <li>
           <a href='/'><img/></a>

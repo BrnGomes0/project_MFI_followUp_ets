@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import "./index.css"
 import RegisterScreen from "./Screens/RegisterScreen/RegisterScreen";
 import UploadScreen from "./Screens/UploadScreen/UploadScreen";
+import ViewScreen from "./Screens/ViewScreen/ViewScreen";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/login" element={<LoginScreen/>}/>
         <Route path="/register" element={<RegisterScreen/>}/>
         <Route path="/upload" element={<UploadScreen/>}/>
+        <Route path="/view" element={<ViewScreen/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
