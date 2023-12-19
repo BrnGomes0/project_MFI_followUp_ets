@@ -29,7 +29,14 @@ function ViewScreen(){
                     <h1>Supplier</h1>
                 </div>
                 <div className="">
-                    <FollowUp/>
+                    <FollowUp
+                        orders='93410394'
+                        email='brunownog05@gmail.com'
+                        creation='12/12/2023'
+                        delivery='18/12/2023'
+                        fup='1'
+                        supplier='G2 Machines'
+                    />
                 </div>
             </div>
         </section>
